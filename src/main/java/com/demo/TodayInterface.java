@@ -10,5 +10,5 @@ public interface TodayInterface {
 	public String getMonth(@WebParam(name = "months") String months ) ;
 		
 	
-	public String toDay (@WebParam(name = "day") String day);
+	public String toDay (@WebParam(name = "date") String date);
 }
