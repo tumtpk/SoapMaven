@@ -10,10 +10,8 @@ import javax.jws.WebService;
 public class DayService {
 	@WebMethod
 	public String toDay() {
-		Calendar c = Calendar.getInstance();
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		String currentDate = df.format(c.getTime());
-		return ("Current Date : " + currentDate);
+		
+		return toDay();
 		
 	}
 	@WebMethod
