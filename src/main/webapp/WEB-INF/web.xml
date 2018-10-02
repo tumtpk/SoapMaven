@@ -13,7 +13,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>quiz</servlet-name>
+        <servlet-name>QuizService</servlet-name>
         <url-pattern>/quiz</url-pattern>
     </servlet-mapping>
     <session-config>
