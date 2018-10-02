@@ -14,7 +14,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Soapmaven</servlet-name>
-        <url-pattern>/quiz</url-pattern>
+        <url-pattern>/soapmaven</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>120</session-timeout>
