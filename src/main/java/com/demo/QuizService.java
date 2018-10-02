@@ -13,17 +13,18 @@ import javax.jws.WebService;
 
 
 		@WebMethod
-		public void toDay(@WebParam(name = "date") Date date) {
+		public String toDay(@WebParam(name = "date") Date date) {
 			DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 			date = new Date();
-			System.out.println(dateFormat.format(date));
+			String dateandtime = dateFormat.format(date);
+			return dateandtime;
 		}
 		
 		
 		@WebMethod
-		public int getMonth(@WebParam(name = "Month") int Month) {
+		public int getMonth(@WebParam(name = "month") int month) {
 			String monthString;
-	        switch (Month) {
+	        switch (month) {
 	            case 1:  monthString = "January";
 	                     break;
 	            case 2:  monthString = "February";
@@ -51,6 +52,6 @@ import javax.jws.WebService;
 	            default: monthString = "Invalid month";
 	                     break;
 	        }
-			return Month;
+			return month;
 		}
 	}

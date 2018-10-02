@@ -12,7 +12,7 @@ import javax.jws.WebService;
 public interface QuizServiceInterface {
 	
 	@WebMethod
-	public void toDay(@WebParam(name = "date") Date date);
+	public String toDay(@WebParam(name = "date") Date date);
 	
 	@WebMethod
 	public int getMonth(@WebParam(name = "Month") int Month);
