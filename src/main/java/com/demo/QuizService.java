@@ -19,7 +19,7 @@ public class QuizService {
 	}
 	
 	@WebMethod
-	public int getMonth(@WebParam (name = "number") int number){
+	public String getMonth(@WebParam (name = "number") int number){
 		if(number == 1) {
 			return "January";
 		}
