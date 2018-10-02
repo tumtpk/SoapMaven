@@ -17,6 +17,7 @@ public class QuizService {
 		Date date = new Date();
 		return dateFormat.format(date);
 	}
+	@WebMethod
 	public String getMonth(@WebParam(name = "number")int number) {
 	
 		switch (number) {
