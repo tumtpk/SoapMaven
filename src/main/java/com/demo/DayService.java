@@ -21,7 +21,6 @@ public class DayService {
 		 switch (num) {
          case '1' :
              return "January";
-            
          case '2' :
              return "February";
          case '3' :
@@ -38,11 +37,6 @@ public class DayService {
              return "February";
          case '9' :
              return "February";
-         case '11' :
-             return "February";
-         case '12' :
-             return "February";
-             
 		default:
         	 return "heoll world";
      }
