@@ -20,9 +20,11 @@ public class QuizService {
 		}
 		@WebMethod
 		public String getMonth(@WebParam(name = "getmonth") String getmonth) {
-			Date date = new Date();
-			LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-			int month = localDate.getMonthValue();
+//			Date date = new Date();
+//			LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+//			int month = localDate.getMonthValue();
+			
+			
 			return getmonth;
 		}
 		
