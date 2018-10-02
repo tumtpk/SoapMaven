@@ -6,7 +6,7 @@
         </listener-class>
     </listener>
     <servlet>
-        <servlet-name></servlet-name>
+        <servlet-name>toDay</servlet-name>
         <servlet-class>
         	com.sun.xml.ws.transport.http.servlet.WSServlet
         </servlet-class>
