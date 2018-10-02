@@ -21,17 +21,11 @@ public class QuizService {
 	
 	@WebMethod
 	public String getMonth(@WebParam(name = "month") int month) {
-		String mm="";
 		String[] m = {"January","February","March","April","May","June","July","August","September","October","November","December"};
-		for(int i=0;i<=m.length;i++) {
-			if(month==i) {
-				mm = m[i];
-			}
-			else {
-				mm = "hello world";
-			}
+		if(month<1||month>12) {
+			return "hello world";
 		}
-		return mm;
+		return m[month];
 	}
 
 }
