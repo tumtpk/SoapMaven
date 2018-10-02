@@ -13,9 +13,9 @@ import javax.jws.WebService;
 
 
 		@WebMethod
-		public String toDay(@WebParam(name = "") Date date) {
+		public String toDay() {
 			DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-			date = new Date();
+			Date date = new Date();
 			String dateandtime = dateFormat.format(date);
 			return dateandtime;
 		}
