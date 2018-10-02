@@ -13,7 +13,7 @@ import javax.jws.WebService;
 
 	public class QuizService {
 	@WebMethod
-	public double calculate(@WebParam(name = "n")int n) {
+	public double toDay(@WebParam(name = "n")int n) {
 			
 			Date date = new Date(0);
 			System.out.println("Current Date : " + date.toString()); 
