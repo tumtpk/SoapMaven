@@ -6,14 +6,14 @@
         </listener-class>
     </listener>
     <servlet>
-        <servlet-name>59113423</servlet-name>
+        <servlet-name>QuizService</servlet-name>
         <servlet-class>
         	com.sun.xml.ws.transport.http.servlet.WSServlet
         </servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>59113423</servlet-name>
+        <servlet-name>QuizService</servlet-name>
         <url-pattern>/59113423</url-pattern>
     </servlet-mapping>
     <session-config>
