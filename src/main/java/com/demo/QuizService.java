@@ -26,7 +26,10 @@ public class QuizService {
 	public String getMonth(@WebParam(name = "month_digit") int num) {
 		
 		String[] monList = {"","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-		
-		return monList[num];
+		String result = "hello world";
+		if(num>=1 && num<=12) {
+			return monList[num];
+		}
+		return result;
 	}
 }
