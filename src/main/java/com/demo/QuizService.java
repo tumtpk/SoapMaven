@@ -3,7 +3,6 @@ package com.demo;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
