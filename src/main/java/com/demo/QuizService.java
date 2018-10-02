@@ -3,8 +3,8 @@ package com.demo;
 
 
 import java.sql.Date;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+
+
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -15,13 +15,14 @@ public class QuizService {
 	
 	@WebMethod
 	public String toDay() {
-//		Date dNow = new Date(0); ft.format
+		Date dNow = new Date(0);
 //	      SimpleDateFormat ft = new SimpleDateFormat ("dd/MM/yyyy HH:mm:ss");
-		return "dd/MM/yyyy HH:mm:ss" ;
+		return  (dNow.toString()) ;
 	}
 	
 	@WebMethod
 	public String getMonth(@WebParam(name = "number") int number) {
+		
 		String month;
 		
 		switch (number) {
