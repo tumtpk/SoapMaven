@@ -21,7 +21,6 @@ public class QuizService {
 	public String getMonth(@WebParam(name = "number") int number) {
 		
 		String month;
-		
 		switch (number) {
 		case 1:
 			month = "January";
