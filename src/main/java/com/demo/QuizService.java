@@ -13,7 +13,7 @@ import javax.jws.WebService;
 public class QuizService {
 	@WebMethod
 	public String toDay() {
-		DateFormat dateFormat = new SimpleDateFormat("(dd/MM/yyyy HH:mm:ss");
+		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		Date date = new Date();
 		return dateFormat.format(date);
 	}
