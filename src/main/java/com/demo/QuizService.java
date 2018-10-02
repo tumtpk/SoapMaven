@@ -3,14 +3,11 @@ package com.demo;
 
 
 import java.sql.Date;
-
-
-
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "QuizServiceInterface")
+@WebService(endpointInterface ="QuizServiceInterface")
 public class QuizService {
 	
 	@WebMethod
@@ -64,7 +61,7 @@ public class QuizService {
 			break;
 
 		default:
-			month = "hello world";
+			month = "Helloworld";
 			break;
 		}
 		return month;
