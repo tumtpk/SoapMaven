@@ -9,7 +9,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.demo.QuizServiceInterface")
+@WebService(endpointInterface ="com.demo.QuizServiceInterface")
 public class QuizService {
 	@WebMethod
 	public String toDay() {
@@ -34,7 +34,6 @@ public class QuizService {
 		case 11: return "November";
 		case 12: return "December";
 		default: return "hello world";
-		
 		}
 	}
 
