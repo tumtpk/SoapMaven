@@ -13,10 +13,10 @@ import javax.jws.WebService;
 
 
 		@WebMethod
-		public Date toDay(@WebParam(name = "date") Date date) {
+		public void toDay(@WebParam(name = "date") Date date) {
 			DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 			date = new Date();
-			return date;
+			System.out.println(dateFormat.format(date));
 		}
 		
 		
