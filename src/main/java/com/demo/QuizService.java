@@ -1,6 +1,6 @@
 package com.demo;
 
-import java.sql.Date;
+import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -17,7 +17,7 @@ public class QuizService {
 	@WebMethod
 	public Date toDay() {
 		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-		Date date = new Date(0);
+		Date date = new Date();
 		return date;
 		
 	}
