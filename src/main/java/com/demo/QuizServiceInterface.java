@@ -12,7 +12,7 @@ import org.junit.runners.Parameterized.Parameters;
 public interface QuizServiceInterface {
 	
 	@WebMethod
-	public Date toDay(@WebParam(name = "date") Date date);
+	public String toDay(@WebParam(name = "") Date date);
 	
 	@WebMethod
 	public int getMonth(@WebParam(name = "Month") int Month);
