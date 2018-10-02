@@ -4,7 +4,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
-@WebService(endpointInterface="com.demo.toDayServiceInterface")
+@WebService(endpointInterface="com.demo.toDay")
 public class toDayClass {
 
 	
@@ -56,12 +56,13 @@ public String Month(@WebParam(name="num")int num) {
 		return "November";
 		
 	}
-	else{
+	else if(num==12) {
 		return "December";
+		
 	}
-	
-	
-	
+	else {
+		return "hello world";
+	}
 	
 	
 	
