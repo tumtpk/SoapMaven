@@ -10,35 +10,12 @@ import javax.jws.WebService;
 public class DayService {
 	@WebMethod
 	public String toDay() {
-		
 		return toDay();
 		
 	}
 	@WebMethod
-	public String getMonth(@WebParam(name = "num") int num) {
-		 switch (num) {
-         case '1' :
-             return "January";
-         case '2' :
-             return "February";
-         case '3' :
-             return "February";
-         case '4' :
-             return "February";
-         case '5' :
-             return "February";
-         case '6' :
-             return "February";
-         case '7' :
-             return "February";
-         case '8' :
-             return "February";
-         case '9' :
-             return "February";
-		default:
-        	 return "heoll world";
-     }
-		
+	public String getMonth(@WebParam(name = "month") int month) {
+		 return ;
 	}
 
 }

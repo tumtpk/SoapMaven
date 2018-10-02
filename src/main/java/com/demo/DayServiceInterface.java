@@ -11,6 +11,6 @@ public interface DayServiceInterface {
 	@WebMethod
 	public String toDay();
 	@WebMethod
-	public String getMonth(@WebParam(name = "num") int num); 
+	public String getMonth(@WebParam(name = "month") int month); 
 	
 }
