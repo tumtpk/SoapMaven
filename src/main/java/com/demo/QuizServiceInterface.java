@@ -12,7 +12,7 @@ public interface QuizServiceInterface {
 	
 	
 	@WebMethod
-	public String getMonth(@WebParam(name = "number") int num);
+	public String getMonth(@WebParam(name = "number") int number);
 	
 
 }

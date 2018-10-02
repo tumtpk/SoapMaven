@@ -15,16 +15,16 @@ public class QuizService {
 	
 	@WebMethod
 	public String toDay() {
-		Date dNow = new Date(0);
-	      SimpleDateFormat ft = 
-	      new SimpleDateFormat ("dd/MM/yyyy HH:mm:ss");
-		return  ft.format(dNow) ;
+//		Date dNow = new Date(0); ft.format
+//	      SimpleDateFormat ft = new SimpleDateFormat ("dd/MM/yyyy HH:mm:ss");
+		return "dd/MM/yyyy HH:mm:ss" ;
 	}
 	
 	@WebMethod
-	public String getMonth(@WebParam(name = "number") int num) {
+	public String getMonth(@WebParam(name = "number") int number) {
 		String month;
-		switch (num) {
+		
+		switch (number) {
 		case 1:
 			month = "January";
 			break;
