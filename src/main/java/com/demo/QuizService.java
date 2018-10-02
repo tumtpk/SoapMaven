@@ -48,6 +48,8 @@ public class QuizService {
          break;
 		 case 12: monthString = "December";
          break;
+		 default: monthString = "hello world";
+         break;
 		}
 		return monthString;
 	}
