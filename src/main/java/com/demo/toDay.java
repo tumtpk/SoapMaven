@@ -37,7 +37,7 @@ import javax.jws.WebService;
 	@WebService(endpointInterface = "com.demo.toDay")
 	public class SwitchDemo {
 		@WebMethod
-		public double calculate(@WebParam(name = "month")int month) { {
+		public double calculate(@WebParam(name = "n")int n) { {
 
 	        int month = 8;
 	        String monthString;
