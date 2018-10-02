@@ -8,7 +8,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.QuizServiceInterface")
+@WebService(endpointInterface = "com.demo.QuizServiceInterface")
 	public class QuizService {
 
 
