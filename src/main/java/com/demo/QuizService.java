@@ -23,7 +23,7 @@ public class QuizService {
 	
 	@WebMethod
 	public String getMonth(@WebParam(name = "number") int num) {
-		String month = null;
+		String month;
 		switch (num) {
 		case 1:
 			month = "January";
