@@ -6,15 +6,15 @@
         </listener-class>
     </listener>
     <servlet>
-        <servlet-name>Today</servlet-name>
+        <servlet-name>Quiz</servlet-name>
         <servlet-class>
         	com.sun.xml.ws.transport.http.servlet.WSServlet
         </servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Today</servlet-name>
-        <url-pattern>/today</url-pattern>
+        <servlet-name>Quiz</servlet-name>
+        <url-pattern>/Quiz</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>120</session-timeout>
