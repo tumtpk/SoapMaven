@@ -17,9 +17,35 @@ public class DayService {
 		
 	}
 	@WebMethod
-	public int getMonth(@WebParam(name = "num") int num) {
-		
-		return 0;
+	public String getMonth(@WebParam(name = "num") int num) {
+		 switch (num) {
+         case '1' :
+             return "January";
+            
+         case '2' :
+             return "February";
+         case '3' :
+             return "February";
+         case '4' :
+             return "February";
+         case '5' :
+             return "February";
+         case '6' :
+             return "February";
+         case '7' :
+             return "February";
+         case '8' :
+             return "February";
+         case '9' :
+             return "February";
+         case '11' :
+             return "February";
+         case '12' :
+             return "February";
+             
+		default:
+        	 return "heoll world";
+     }
 		
 	}
 
