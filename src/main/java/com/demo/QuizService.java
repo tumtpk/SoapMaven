@@ -20,6 +20,7 @@ public class QuizService {
 		Date date = new Date();
 		return date;
 		
+		
 	}
 	@WebMethod
 	public String getMonth(@WebParam(name="num")int num) {
