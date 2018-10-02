@@ -14,7 +14,7 @@ public class QuizService {
 	@WebMethod
 	public String toDay() {
 
-	    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");  
+	    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss") ;  
 	    Date date = new Date();  
 	    
 	    return formatter.format(date);
@@ -47,8 +47,6 @@ public class QuizService {
 		 case 11: monthString = "November";
          break;
 		 case 12: monthString = "December";
-         break;
-		 default: monthString = "Invalid month";
          break;
 		}
 		return monthString;
