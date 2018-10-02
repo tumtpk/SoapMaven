@@ -16,7 +16,7 @@ public class QuizService {
 		Calendar c = Calendar.getInstance();
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String currentDate = df.format(c.getTime());
-		return "Current Date : " + currentDate; 
+		return "Output : " + currentDate; 
 	}
 	
 	@WebMethod
@@ -35,6 +35,6 @@ public class QuizService {
 		case 11 : return "November";
 		case 12 : return "December";
 		}
-		return null;
+		return "Hello World";
 	}
 }
