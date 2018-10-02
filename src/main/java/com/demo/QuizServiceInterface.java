@@ -8,6 +8,6 @@ public interface QuizServiceInterface {
 	@WebMethod
 	public String toDay();
 	@WebMethod
-	public String getMonth(@WebParam (name = "number") int number);
+	public int getMonth(@WebParam (name = "number") int number);
 
 }
