@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>      	
 <endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">    
-	<endpoint name="WebServiceImpl" implementation="com.demo.QuizServiceInterface" url-pattern="/quiz" />	
+	<endpoint name="WebServiceImpl" implementation="com.demo.QuizService " url-pattern="/ quiz" />	
 </endpoints>
